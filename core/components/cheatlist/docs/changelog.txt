@@ -1,0 +1,5 @@
+Changelog for cheat-list.ru
+
+1.0.0-beta
+==============
+- First release

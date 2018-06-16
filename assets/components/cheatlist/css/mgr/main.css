@@ -1,0 +1,96 @@
+/* Grid */
+.cheatlist-cheatlist-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.cheatlist-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.cheatlist-row-actions li { float: left; }
+ul.cheatlist-row-actions .cheatlist-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.cheatlist-row-actions .actions-menu { width: 40px; }
+ul.cheatlist-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.cheatlist-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.cheatlist-btn:focus, .cheatlist-btn:active:focus, .cheatlist-btn.active:focus, .cheatlist-btn.focus, .cheatlist-btn:active.focus, .cheatlist-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.cheatlist-btn:hover, .cheatlist-btn:focus, .cheatlist-btn.focus { color: #333; text-decoration: none }
+.cheatlist-btn:active, .cheatlist-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.cheatlist-btn.disabled, .cheatlist-btn[disabled], fieldset[disabled] .cheatlist-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.cheatlist-btn.disabled, fieldset[disabled] a.cheatlist-btn { pointer-events: none }
+.cheatlist-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.cheatlist-btn-default:focus, .cheatlist-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.cheatlist-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.cheatlist-btn-default:active, .cheatlist-btn-default.active, .open > .dropdown-toggle.cheatlist-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.cheatlist-btn-default:active:hover, .cheatlist-btn-default.active:hover, .open > .dropdown-toggle.cheatlist-btn-default:hover, .cheatlist-btn-default:active:focus, .cheatlist-btn-default.active:focus, .open > .dropdown-toggle.cheatlist-btn-default:focus, .cheatlist-btn-default:active.focus, .cheatlist-btn-default.active.focus, .open > .dropdown-toggle.cheatlist-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.cheatlist-btn-default:active, .cheatlist-btn-default.active, .open > .dropdown-toggle.cheatlist-btn-default { background-image: none }
+.cheatlist-btn-default.disabled:hover, .cheatlist-btn-default[disabled]:hover, fieldset[disabled] .cheatlist-btn-default:hover, .cheatlist-btn-default.disabled:focus, .cheatlist-btn-default[disabled]:focus, fieldset[disabled] .cheatlist-btn-default:focus, .cheatlist-btn-default.disabled.focus, .cheatlist-btn-default[disabled].focus, fieldset[disabled] .cheatlist-btn-default.focus { background-color: #fff; border-color: #ccc }
+.cheatlist-btn-default .badge { color: #fff; background-color: #333 }
+.cheatlist-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.cheatlist-btn-primary:focus, .cheatlist-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.cheatlist-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.cheatlist-btn-primary:active, .cheatlist-btn-primary.active, .open > .dropdown-toggle.cheatlist-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.cheatlist-btn-primary:active:hover, .cheatlist-btn-primary.active:hover, .open > .dropdown-toggle.cheatlist-btn-primary:hover, .cheatlist-btn-primary:active:focus, .cheatlist-btn-primary.active:focus, .open > .dropdown-toggle.cheatlist-btn-primary:focus, .cheatlist-btn-primary:active.focus, .cheatlist-btn-primary.active.focus, .open > .dropdown-toggle.cheatlist-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.cheatlist-btn-primary:active, .cheatlist-btn-primary.active, .open > .dropdown-toggle.cheatlist-btn-primary { background-image: none }
+.cheatlist-btn-primary.disabled:hover, .cheatlist-btn-primary[disabled]:hover, fieldset[disabled] .cheatlist-btn-primary:hover, .cheatlist-btn-primary.disabled:focus, .cheatlist-btn-primary[disabled]:focus, fieldset[disabled] .cheatlist-btn-primary:focus, .cheatlist-btn-primary.disabled.focus, .cheatlist-btn-primary[disabled].focus, fieldset[disabled] .cheatlist-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.cheatlist-btn-primary .badge { color: #337ab7; background-color: #fff }
+.cheatlist-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.cheatlist-btn-success:focus, .cheatlist-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.cheatlist-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.cheatlist-btn-success:active, .cheatlist-btn-success.active, .open > .dropdown-toggle.cheatlist-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.cheatlist-btn-success:active:hover, .cheatlist-btn-success.active:hover, .open > .dropdown-toggle.cheatlist-btn-success:hover, .cheatlist-btn-success:active:focus, .cheatlist-btn-success.active:focus, .open > .dropdown-toggle.cheatlist-btn-success:focus, .cheatlist-btn-success:active.focus, .cheatlist-btn-success.active.focus, .open > .dropdown-toggle.cheatlist-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.cheatlist-btn-success:active, .cheatlist-btn-success.active, .open > .dropdown-toggle.cheatlist-btn-success { background-image: none }
+.cheatlist-btn-success.disabled:hover, .cheatlist-btn-success[disabled]:hover, fieldset[disabled] .cheatlist-btn-success:hover, .cheatlist-btn-success.disabled:focus, .cheatlist-btn-success[disabled]:focus, fieldset[disabled] .cheatlist-btn-success:focus, .cheatlist-btn-success.disabled.focus, .cheatlist-btn-success[disabled].focus, fieldset[disabled] .cheatlist-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.cheatlist-btn-success .badge { color: #5cb85c; background-color: #fff }
+.cheatlist-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.cheatlist-btn-info:focus, .cheatlist-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.cheatlist-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.cheatlist-btn-info:active, .cheatlist-btn-info.active, .open > .dropdown-toggle.cheatlist-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.cheatlist-btn-info:active:hover, .cheatlist-btn-info.active:hover, .open > .dropdown-toggle.cheatlist-btn-info:hover, .cheatlist-btn-info:active:focus, .cheatlist-btn-info.active:focus, .open > .dropdown-toggle.cheatlist-btn-info:focus, .cheatlist-btn-info:active.focus, .cheatlist-btn-info.active.focus, .open > .dropdown-toggle.cheatlist-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.cheatlist-btn-info:active, .cheatlist-btn-info.active, .open > .dropdown-toggle.cheatlist-btn-info { background-image: none }
+.cheatlist-btn-info.disabled:hover, .cheatlist-btn-info[disabled]:hover, fieldset[disabled] .cheatlist-btn-info:hover, .cheatlist-btn-info.disabled:focus, .cheatlist-btn-info[disabled]:focus, fieldset[disabled] .cheatlist-btn-info:focus, .cheatlist-btn-info.disabled.focus, .cheatlist-btn-info[disabled].focus, fieldset[disabled] .cheatlist-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.cheatlist-btn-info .badge { color: #5bc0de; background-color: #fff }
+.cheatlist-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.cheatlist-btn-warning:focus, .cheatlist-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.cheatlist-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.cheatlist-btn-warning:active, .cheatlist-btn-warning.active, .open > .dropdown-toggle.cheatlist-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.cheatlist-btn-warning:active:hover, .cheatlist-btn-warning.active:hover, .open > .dropdown-toggle.cheatlist-btn-warning:hover, .cheatlist-btn-warning:active:focus, .cheatlist-btn-warning.active:focus, .open > .dropdown-toggle.cheatlist-btn-warning:focus, .cheatlist-btn-warning:active.focus, .cheatlist-btn-warning.active.focus, .open > .dropdown-toggle.cheatlist-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.cheatlist-btn-warning:active, .cheatlist-btn-warning.active, .open > .dropdown-toggle.cheatlist-btn-warning { background-image: none }
+.cheatlist-btn-warning.disabled:hover, .cheatlist-btn-warning[disabled]:hover, fieldset[disabled] .cheatlist-btn-warning:hover, .cheatlist-btn-warning.disabled:focus, .cheatlist-btn-warning[disabled]:focus, fieldset[disabled] .cheatlist-btn-warning:focus, .cheatlist-btn-warning.disabled.focus, .cheatlist-btn-warning[disabled].focus, fieldset[disabled] .cheatlist-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.cheatlist-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.cheatlist-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.cheatlist-btn-danger:focus, .cheatlist-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.cheatlist-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.cheatlist-btn-danger:active, .cheatlist-btn-danger.active, .open > .dropdown-toggle.cheatlist-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.cheatlist-btn-danger:active:hover, .cheatlist-btn-danger.active:hover, .open > .dropdown-toggle.cheatlist-btn-danger:hover, .cheatlist-btn-danger:active:focus, .cheatlist-btn-danger.active:focus, .open > .dropdown-toggle.cheatlist-btn-danger:focus, .cheatlist-btn-danger:active.focus, .cheatlist-btn-danger.active.focus, .open > .dropdown-toggle.cheatlist-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.cheatlist-btn-danger:active, .cheatlist-btn-danger.active, .open > .dropdown-toggle.cheatlist-btn-danger { background-image: none }
+.cheatlist-btn-danger.disabled:hover, .cheatlist-btn-danger[disabled]:hover, fieldset[disabled] .cheatlist-btn-danger:hover, .cheatlist-btn-danger.disabled:focus, .cheatlist-btn-danger[disabled]:focus, fieldset[disabled] .cheatlist-btn-danger:focus, .cheatlist-btn-danger.disabled.focus, .cheatlist-btn-danger[disabled].focus, fieldset[disabled] .cheatlist-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.cheatlist-btn-danger .badge { color: #d9534f; background-color: #fff }
+.cheatlist-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.cheatlist-btn-link, .cheatlist-btn-link:active, .cheatlist-btn-link.active, .cheatlist-btn-link[disabled], fieldset[disabled] .cheatlist-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.cheatlist-btn-link, .cheatlist-btn-link:hover, .cheatlist-btn-link:focus, .cheatlist-btn-link:active { border-color: transparent }
+.cheatlist-btn-link:hover, .cheatlist-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.cheatlist-btn-link[disabled]:hover, fieldset[disabled] .cheatlist-btn-link:hover, .cheatlist-btn-link[disabled]:focus, fieldset[disabled] .cheatlist-btn-link:focus { color: #777; text-decoration: none }
+.cheatlist-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.cheatlist-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.cheatlist-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.cheatlist-btn-block { display: block; width: 100% }
+.cheatlist-btn-block + .cheatlist-btn-block { margin-top: 5px }
